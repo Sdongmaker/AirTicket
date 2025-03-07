@@ -22,6 +22,13 @@ spring:
     multipart:
       max-file-size: 10MB
       max-request-size: 100MB
+
+# JWT配置
+jwt:
+  secret: airticketSecretKeyMustBeLongEnoughForHS256Algorithm
+  expiration: 86400000
+  refresh-expiration: 604800000
+
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
