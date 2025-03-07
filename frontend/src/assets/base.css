@@ -1,0 +1,22 @@
+/* 基础样式重置 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #409EFF;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #66b1ff;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  outline: none;
+} 
