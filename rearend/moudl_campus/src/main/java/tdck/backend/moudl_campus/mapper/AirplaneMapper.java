@@ -1,6 +1,6 @@
-package tdck/backend/moudl_campus.mapper;
+package tdck.backend.moudl_campus.mapper;
 
-import tdck/backend/moudl_campus.pojo.Airplane;
+import tdck.backend.moudl_campus.pojo.Airplane;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

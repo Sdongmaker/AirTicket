@@ -1,6 +1,6 @@
-package tdck/backend/moudl_campus.service;
+package tdck.backend.moudl_campus.service;
 
-import tdck/backend/moudl_campus.pojo.Baggage;
+import tdck.backend.moudl_campus.pojo.Baggage;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

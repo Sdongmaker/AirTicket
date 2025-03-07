@@ -1,10 +1,11 @@
-package tdck/backend/moudl_campus.service.impl;
+package tdck.backend.moudl_campus.service.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import tdck/backend/moudl_campus.pojo.Baggage;
-import tdck/backend/moudl_campus.service.BaggageService;
-import tdck/backend/moudl_campus.mapper.BaggageMapper;
+
 import org.springframework.stereotype.Service;
+import tdck.backend.moudl_campus.mapper.BaggageMapper;
+import tdck.backend.moudl_campus.pojo.Baggage;
+import tdck.backend.moudl_campus.service.BaggageService;
 
 /**
 * @author sdongmaker
@@ -13,7 +14,7 @@ import org.springframework.stereotype.Service;
 */
 @Service
 public class BaggageServiceImpl extends ServiceImpl<BaggageMapper, Baggage>
-    implements BaggageService{
+    implements BaggageService {
 
 }
 
