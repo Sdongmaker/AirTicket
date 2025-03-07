@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tdck.backend.moudl_campus.mapper.ManagerMapper">
+
+    <resultMap id="BaseResultMap" type="tdck.backend.moudl_campus.pojo.Manager">
+            <id property="mid" column="mid" />
+            <result property="name" column="name" />
+            <result property="account" column="account" />
+            <result property="passwd" column="passwd" />
+            <result property="role" column="role" />
+            <result property="status" column="status" />
+            <result property="createdAt" column="created_at" />
+            <result property="updatedAt" column="updated_at" />
+            <result property="lastLogin" column="last_login" />
+            <result property="operationLog" column="operation_log" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        mid,name,account,passwd,role,status,
+        created_at,updated_at,last_login,operation_log
+    </sql>
+</mapper>

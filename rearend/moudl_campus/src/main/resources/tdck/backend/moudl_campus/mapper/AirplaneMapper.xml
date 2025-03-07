@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tdck/backend/moudl_campus.mapper.AirplaneMapper">
+
+    <resultMap id="BaseResultMap" type="tdck/backend/moudl_campus.pojo.Airplane">
+            <id property="aid" column="aid" />
+            <result property="aname" column="aname" />
+            <result property="arate" column="arate" />
+            <result property="fClassCnt" column="f_class_cnt" />
+            <result property="bClassCnt" column="b_class_cnt" />
+            <result property="eClassCnt" column="e_class_cnt" />
+            <result property="createdAt" column="created_at" />
+            <result property="updatedAt" column="updated_at" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        aid,aname,arate,f_class_cnt,b_class_cnt,e_class_cnt,
+        created_at,updated_at
+    </sql>
+</mapper>

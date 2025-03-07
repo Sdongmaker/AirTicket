@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="tdck/backend/moudl_campus.mapper.BaggageMapper">
+
+    <resultMap id="BaseResultMap" type="tdck/backend/moudl_campus.pojo.Baggage">
+            <id property="bid" column="bid" />
+            <result property="uid" column="uid" />
+            <result property="flightId" column="flight_id" />
+            <result property="baggageCount" column="baggage_count" />
+            <result property="totalWeight" column="total_weight" />
+            <result property="extraFee" column="extra_fee" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        bid,uid,flight_id,baggage_count,total_weight,extra_fee
+    </sql>
+</mapper>
